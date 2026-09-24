@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+        
+        @font-face {
+            font-family: 'ProggyClean';
+            src: url('https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/proggy-clean/ProggyClean.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+.emerald-text {
+            position: fixed;
+            top: 0px;
+            left: 4px;
+            font-size: 16px;
+            letter-spacing: 5px;
+            font-weight: 0;
+            font-stretch: condensed;
+            color: #cccccc00;
+            z-index: 0;
+            user-select: none;
+            pointer-events: none;
+            font-family: 'ProggyClean', sans-serif;
+            transform: scaleY(0.95);
+        }
+        
+        /* Main text with fatter animated scanlines */
+        .emerald-text {
+            background: linear-gradient(
+                45deg,
+                #00ff95 0%,
+                #0084ff 35%,
+                #0066ff 50%,
+                #00ffbf 70%,
+                #00b7ff 90%,
+                #00ff95 100%
+            );
+            background-size: 300% 100%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: text-scan 9s linear infinite;
+        }
+
+        @keyframes text-scan {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 300% 0%; }
+        }
+
+
+
+                .emerald-text2 {
+            position: fixed;           /* Changed to fixed */
+            top: 95%;
+            left: 4px;
+            font-size: 15px;
+            letter-spacing: 0px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #cccccc00;
+            z-index: 0;
+            user-select: none;
+            pointer-events: none;
+        }
+
+
+        /* Main text with fatter animated scanlines */
+        .emerald-text2 {
+            background: linear-gradient(
+                45deg,
+                #ff0000 0%,
+                #000000 35%,
+                #ff0000 50%,
+                #000000 70%,
+                #ff0000 90%,
+                #ff0000 100%
+            );
+            background-size: 300% 100%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: text-scan 9s linear infinite;
+        }
+
+        @keyframes text-scan {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 300% 0%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="emerald-text2" style="top: 96%;">HASH: jGbLcbYSljt4lysBAeoiGS5LBND2ma3IhXymodtBbJ8=</div>
+    <div class="emerald-text2" style="top: 98%;">Nexura full version: v1.02.5.456a_2.9b </div>
+    <div class="emerald-text">Nexura v1.02.5.4a</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Client</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            background-color: #ffffff00; /* Dark base */
+            background-size: 120px 120px, 80px 80px;
+            font-family: 'Inter', system-ui, sans-serif;
+            color: #00ffb3;
+            min-height: 100vh;
+            padding: 20px;
+        }
+ 
